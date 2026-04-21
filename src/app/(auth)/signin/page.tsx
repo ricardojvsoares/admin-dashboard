@@ -26,7 +26,6 @@ export default function LoginPage() {
         },
         onError: (ctx) => {
           const errorCode = ctx.error.code;
-          console.log(errorCode);
           if (errorCode === 'INVALID_EMAIL_OR_PASSWORD') {
             toast.error(t('invalidUser'), { position: 'top-center', duration: 2000 });
           } else {

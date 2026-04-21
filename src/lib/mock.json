@@ -1,0 +1,539 @@
+{
+  "bmecatFiles": [
+    {
+      "id": "file-001",
+      "supplier": "Global Logistics Corp",
+      "supplierPid": "SUP-4001",
+      "gtin": "5012345678901",
+      "name": "Office Equipment Catalog Q1",
+      "manufacturer": "TechFlow Systems",
+      "status": "success",
+      "details": {
+        "supplierPid": "SUP-4001",
+        "totalProducts": 5,
+        "validProducts": 4,
+        "invalidProducts": 1,
+        "totalFeatures": 120,
+        "validFeatures": 115,
+        "invalidFeatures": 5,
+        "createdBy": 101,
+        "createdAt": "2026-01-10T08:00:00Z",
+        "updatedBy": 102,
+        "updatedAt": "2026-01-15T10:30:00Z"
+      },
+      "products": [
+        {
+          "id": "p-001-01",
+          "supplierPid": "SUP-1001",
+          "name": "Ergonomic Chair Pro",
+          "gtin": "5012345678901",
+          "manufacturer": "SteelComfort",
+          "status": "published",
+          "errorCount": 0
+        },
+        {
+          "id": "p-001-02",
+          "supplierPid": "SUP-1002",
+          "name": "Wireless Mouse X200",
+          "gtin": "5012345678902",
+          "manufacturer": "LogiTech",
+          "status": "pending",
+          "errorCount": 0
+        },
+        {
+          "id": "p-001-03",
+          "supplierPid": "SUP-1003",
+          "name": "Mechanical Keyboard TKL",
+          "gtin": "5012345678903",
+          "manufacturer": "KeyMaster",
+          "status": "error",
+          "errorCount": 3
+        },
+        {
+          "id": "p-001-04",
+          "supplierPid": "SUP-1004",
+          "name": "27-inch 4K Monitor",
+          "gtin": "5012345678904",
+          "manufacturer": "ViewSharp",
+          "status": "published",
+          "errorCount": 0
+        },
+        {
+          "id": "p-001-05",
+          "supplierPid": "SUP-1005",
+          "name": "USB-C Docking Station",
+          "gtin": "5012345678905",
+          "manufacturer": "PortWise",
+          "status": "pending",
+          "errorCount": 1
+        }
+      ],
+      "audits": [
+        {
+          "id": "aud-001-01",
+          "oldValue": "Supplier A",
+          "newValue": "Global Logistics Corp",
+          "createdBy": 101,
+          "createdAt": "2026-01-10T08:05:00Z"
+        },
+        {
+          "id": "aud-001-02",
+          "oldValue": "Office Equipment Draft",
+          "newValue": "Office Equipment Catalog Q1",
+          "createdBy": 102,
+          "createdAt": "2026-01-11T09:00:00Z"
+        },
+        {
+          "id": "aud-001-03",
+          "oldValue": "pending",
+          "newValue": "processing",
+          "createdBy": 101,
+          "createdAt": "2026-01-12T14:00:00Z"
+        },
+        {
+          "id": "aud-001-04",
+          "oldValue": "processing",
+          "newValue": "success",
+          "createdBy": 103,
+          "createdAt": "2026-01-13T16:30:00Z"
+        },
+        {
+          "id": "aud-001-05",
+          "oldValue": "TechFlow Draft",
+          "newValue": "TechFlow Systems",
+          "createdBy": 102,
+          "createdAt": "2026-01-14T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "file-002",
+      "supplier": "North Star Wholesale",
+      "gtin": "0087654321098",
+      "name": "Industrial Hardware Set",
+      "manufacturer": "ForgeMaster Industries",
+      "status": "success",
+      "details": {
+        "supplierPid": "SUP-4002",
+        "totalProducts": 5,
+        "validProducts": 5,
+        "invalidProducts": 0,
+        "totalFeatures": 200,
+        "validFeatures": 198,
+        "invalidFeatures": 2,
+        "createdBy": 201,
+        "createdAt": "2026-01-20T07:00:00Z",
+        "updatedBy": 202,
+        "updatedAt": "2026-01-25T12:00:00Z"
+      },
+      "products": [
+        {
+          "id": "p-002-01",
+          "supplierPid": "SUP-2001",
+          "name": "Industrial Steel Bolts M8",
+          "gtin": "0087654321001",
+          "manufacturer": "ForgeMaster Industries",
+          "status": "published",
+          "errorCount": 0
+        },
+        {
+          "id": "p-002-02",
+          "supplierPid": "SUP-2002",
+          "name": "Heavy Duty Wrench Set",
+          "gtin": "0087654321002",
+          "manufacturer": "ForgeMaster Industries",
+          "status": "published",
+          "errorCount": 0
+        },
+        {
+          "id": "p-002-03",
+          "supplierPid": "SUP-2003",
+          "name": "Stainless Steel Pipe 2m",
+          "gtin": "0087654321003",
+          "manufacturer": "SteelWorks Co.",
+          "status": "published",
+          "errorCount": 0
+        },
+        {
+          "id": "p-002-04",
+          "supplierPid": "SUP-2004",
+          "name": "Safety Gloves L",
+          "gtin": "0087654321004",
+          "manufacturer": "SafeGuard Pro",
+          "status": "published",
+          "errorCount": 0
+        },
+        {
+          "id": "p-002-05",
+          "supplierPid": "SUP-2005",
+          "name": "Drill Bit Set 20pc",
+          "gtin": "0087654321005",
+          "manufacturer": "DrillMaster",
+          "status": "processing",
+          "errorCount": 0
+        }
+      ],
+      "audits": [
+        {
+          "id": "aud-002-01",
+          "oldValue": "NSW Draft",
+          "newValue": "North Star Wholesale",
+          "createdBy": 201,
+          "createdAt": "2026-01-20T07:10:00Z"
+        },
+        {
+          "id": "aud-002-02",
+          "oldValue": "Hardware Draft",
+          "newValue": "Industrial Hardware Set",
+          "createdBy": 201,
+          "createdAt": "2026-01-21T09:00:00Z"
+        },
+        {
+          "id": "aud-002-03",
+          "oldValue": "ForgeIndustries",
+          "newValue": "ForgeMaster Industries",
+          "createdBy": 202,
+          "createdAt": "2026-01-22T11:00:00Z"
+        },
+        {
+          "id": "aud-002-04",
+          "oldValue": "pending",
+          "newValue": "processing",
+          "createdBy": 201,
+          "createdAt": "2026-01-23T13:00:00Z"
+        },
+        {
+          "id": "aud-002-05",
+          "oldValue": "processing",
+          "newValue": "success",
+          "createdBy": 203,
+          "createdAt": "2026-01-25T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "file-003",
+      "supplier": "EcoTrade Solutions",
+      "gtin": "7654321098765",
+      "name": "Green Packaging Line",
+      "manufacturer": "GreenWrap Co.",
+      "status": "pending",
+      "details": {
+        "supplierPid": "SUP-4003",
+        "totalProducts": 5,
+        "validProducts": 3,
+        "invalidProducts": 2,
+        "totalFeatures": 80,
+        "validFeatures": 60,
+        "invalidFeatures": 20,
+        "createdBy": 301,
+        "createdAt": "2026-02-01T09:00:00Z",
+        "updatedBy": 301,
+        "updatedAt": "2026-02-03T10:00:00Z"
+      },
+      "products": [
+        {
+          "id": "p-003-01",
+          "supplierPid": "SUP-3001",
+          "name": "Biodegradable Packaging Tape 50m",
+          "gtin": "7654321098001",
+          "manufacturer": "GreenWrap Co.",
+          "status": "pending",
+          "errorCount": 0
+        },
+        {
+          "id": "p-003-02",
+          "supplierPid": "SUP-3002",
+          "name": "Recycled Cardboard Box 30x30",
+          "gtin": "7654321098002",
+          "manufacturer": "EcoPack Ltd.",
+          "status": "error",
+          "errorCount": 2
+        },
+        {
+          "id": "p-003-03",
+          "supplierPid": "SUP-3003",
+          "name": "Compostable Mailer Bag M",
+          "gtin": "7654321098003",
+          "manufacturer": "GreenWrap Co.",
+          "status": "pending",
+          "errorCount": 0
+        },
+        {
+          "id": "p-003-04",
+          "supplierPid": "SUP-3004",
+          "name": "Paper Void Fill Roll",
+          "gtin": "7654321098004",
+          "manufacturer": "EcoPack Ltd.",
+          "status": "error",
+          "errorCount": 4
+        },
+        {
+          "id": "p-003-05",
+          "supplierPid": "SUP-3005",
+          "name": "Kraft Paper Bubble Wrap",
+          "gtin": "7654321098005",
+          "manufacturer": "NaturePack",
+          "status": "pending",
+          "errorCount": 0
+        }
+      ],
+      "audits": [
+        {
+          "id": "aud-003-01",
+          "oldValue": "EcoTrade",
+          "newValue": "EcoTrade Solutions",
+          "createdBy": 301,
+          "createdAt": "2026-02-01T09:05:00Z"
+        },
+        {
+          "id": "aud-003-02",
+          "oldValue": "GreenPack Draft",
+          "newValue": "Green Packaging Line",
+          "createdBy": 301,
+          "createdAt": "2026-02-01T10:00:00Z"
+        },
+        {
+          "id": "aud-003-03",
+          "oldValue": "GreenWrap",
+          "newValue": "GreenWrap Co.",
+          "createdBy": 302,
+          "createdAt": "2026-02-02T08:00:00Z"
+        },
+        {
+          "id": "aud-003-04",
+          "oldValue": "5",
+          "newValue": "5 (2 invalid flagged)",
+          "createdBy": 301,
+          "createdAt": "2026-02-02T14:00:00Z"
+        },
+        {
+          "id": "aud-003-05",
+          "oldValue": "active",
+          "newValue": "pending review",
+          "createdBy": 303,
+          "createdAt": "2026-02-03T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "file-004",
+      "supplier": "DataTech Imports",
+      "gtin": "4455667788990",
+      "name": "Consumer Electronics Spring",
+      "manufacturer": "BrightTech Ltd.",
+      "status": "processing",
+      "details": {
+        "supplierPid": "SUP-4004",
+        "totalProducts": 6,
+        "validProducts": 5,
+        "invalidProducts": 1,
+        "totalFeatures": 250,
+        "validFeatures": 240,
+        "invalidFeatures": 10,
+        "createdBy": 401,
+        "createdAt": "2026-02-10T08:00:00Z",
+        "updatedBy": 402,
+        "updatedAt": "2026-02-18T15:00:00Z"
+      },
+      "products": [
+        {
+          "id": "p-004-01",
+          "supplierPid": "SUP-4001",
+          "name": "True Wireless Earbuds",
+          "gtin": "4455667788001",
+          "manufacturer": "SoundSafe",
+          "status": "published",
+          "errorCount": 0
+        },
+        {
+          "id": "p-004-02",
+          "supplierPid": "SUP-4002",
+          "name": "Portable Power Bank 20000mAh",
+          "gtin": "4455667788002",
+          "manufacturer": "PowerUp",
+          "status": "published",
+          "errorCount": 0
+        },
+        {
+          "id": "p-004-03",
+          "supplierPid": "SUP-4003",
+          "name": "Smart Home Hub Mini",
+          "gtin": "4455667788003",
+          "manufacturer": "HomeLink",
+          "status": "processing",
+          "errorCount": 0
+        },
+        {
+          "id": "p-004-04",
+          "supplierPid": "SUP-4004",
+          "name": "Action Camera 4K",
+          "gtin": "4455667788004",
+          "manufacturer": "ClearVision",
+          "status": "error",
+          "errorCount": 2
+        },
+        {
+          "id": "p-004-05",
+          "supplierPid": "SUP-4005",
+          "name": "Wireless Charging Pad 15W",
+          "gtin": "4455667788005",
+          "manufacturer": "PowerUp",
+          "status": "published",
+          "errorCount": 0
+        },
+        {
+          "id": "p-004-06",
+          "supplierPid": "SUP-4006",
+          "name": "Foldable Bluetooth Keyboard",
+          "gtin": "4455667788006",
+          "manufacturer": "KeyMaster",
+          "status": "published",
+          "errorCount": 0
+        }
+      ],
+      "audits": [
+        {
+          "id": "aud-004-01",
+          "oldValue": "DataTech",
+          "newValue": "DataTech Imports",
+          "createdBy": 401,
+          "createdAt": "2026-02-10T08:10:00Z"
+        },
+        {
+          "id": "aud-004-02",
+          "oldValue": "Consumer Electronics",
+          "newValue": "Consumer Electronics Spring",
+          "createdBy": 401,
+          "createdAt": "2026-02-11T09:00:00Z"
+        },
+        {
+          "id": "aud-004-03",
+          "oldValue": "BrightTech",
+          "newValue": "BrightTech Ltd.",
+          "createdBy": 402,
+          "createdAt": "2026-02-12T10:30:00Z"
+        },
+        {
+          "id": "aud-004-04",
+          "oldValue": "pending",
+          "newValue": "processing",
+          "createdBy": 401,
+          "createdAt": "2026-02-15T11:00:00Z"
+        },
+        {
+          "id": "aud-004-05",
+          "oldValue": "4 products",
+          "newValue": "6 products",
+          "createdBy": 403,
+          "createdAt": "2026-02-18T15:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "file-005",
+      "supplier": "MedSupply Direct",
+      "gtin": "1122334455667",
+      "name": "Healthcare Consumables Q2",
+      "manufacturer": "MediCore AG",
+      "status": "failed",
+      "details": {
+        "supplierPid": "SUP-4005",
+        "totalProducts": 5,
+        "validProducts": 1,
+        "invalidProducts": 4,
+        "totalFeatures": 150,
+        "validFeatures": 40,
+        "invalidFeatures": 110,
+        "createdBy": 501,
+        "createdAt": "2026-03-01T07:00:00Z",
+        "updatedBy": 502,
+        "updatedAt": "2026-03-05T16:00:00Z"
+      },
+      "products": [
+        {
+          "id": "p-005-01",
+          "supplierPid": "SUP-5001",
+          "name": "Disposable Nitrile Gloves Box/100",
+          "gtin": "1122334455001",
+          "manufacturer": "MediCore AG",
+          "status": "published",
+          "errorCount": 0
+        },
+        {
+          "id": "p-005-02",
+          "supplierPid": "SUP-5002",
+          "name": "Digital Thermometer Pro",
+          "gtin": "1122334455002",
+          "manufacturer": "HealthScan",
+          "status": "error",
+          "errorCount": 5
+        },
+        {
+          "id": "p-005-03",
+          "supplierPid": "SUP-5003",
+          "name": "First Aid Kit Deluxe",
+          "gtin": "1122334455003",
+          "manufacturer": "SafetyFirst",
+          "status": "failed",
+          "errorCount": 3
+        },
+        {
+          "id": "p-005-04",
+          "supplierPid": "SUP-5004",
+          "name": "Pulse Oximeter Clip-on",
+          "gtin": "1122334455004",
+          "manufacturer": "HealthScan",
+          "status": "error",
+          "errorCount": 7
+        },
+        {
+          "id": "p-005-05",
+          "supplierPid": "SUP-5005",
+          "name": "Blood Pressure Monitor Arm",
+          "gtin": "1122334455005",
+          "manufacturer": "MediCore AG",
+          "status": "failed",
+          "errorCount": 4
+        }
+      ],
+      "audits": [
+        {
+          "id": "aud-005-01",
+          "oldValue": "MedSupply",
+          "newValue": "MedSupply Direct",
+          "createdBy": 501,
+          "createdAt": "2026-03-01T07:05:00Z"
+        },
+        {
+          "id": "aud-005-02",
+          "oldValue": "Healthcare Q2",
+          "newValue": "Healthcare Consumables Q2",
+          "createdBy": 501,
+          "createdAt": "2026-03-01T09:00:00Z"
+        },
+        {
+          "id": "aud-005-03",
+          "oldValue": "MediCore",
+          "newValue": "MediCore AG",
+          "createdBy": 502,
+          "createdAt": "2026-03-02T11:00:00Z"
+        },
+        {
+          "id": "aud-005-04",
+          "oldValue": "processing",
+          "newValue": "failed",
+          "createdBy": 503,
+          "createdAt": "2026-03-04T14:00:00Z"
+        },
+        {
+          "id": "aud-005-05",
+          "oldValue": "4 invalid",
+          "newValue": "validation failed - schema mismatch",
+          "createdBy": 502,
+          "createdAt": "2026-03-05T16:00:00Z"
+        }
+      ]
+    }
+  ]
+}
